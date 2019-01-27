@@ -1,0 +1,16 @@
+1. Crear repositorio:
+	* git init <nombre del repositorio>
+	O, si ya tengo una carpeta con archivos, utilizo "git init" solamente y listo.
+
+2. Añadir cambios al staging:
+	git add
+
+3. Commit
+	git commit -m [“mensaje”]: Es bueno ser descriptivos con el mensaje para saber lo
+	que se hizo en ese commit y para informar al resto de personas.
+
+	git commit --amend: concatena nuevos cambios al commit anterior.
+
+	git log: nos muestra la historia de todos los commits que hemos realizados.
+
+

@@ -1,0 +1,52 @@
+1. Que es un sistema de control de versiones?
+	Sistema que registra los cambios realizados sobre un archivo o conjunto
+	de archivos a lo largo del tiempo.
+
+2. Tipos de sistemas control de versiones:
+	2.1 Local: En tu computador.
+	2.2 Centralizado: Super-servidor que provee copias a los hijos.
+	2.3 Distribuidos: Tengo disponibilidad de todos los poderes y controles
+	de los repositorios en mi computadora.
+
+3. Beneficios de usar Git:
+	* Velocidad
+	* Diseño sencillo
+	* Fuerte apoyo en el desarrollo no lineal
+	* Complemtamente distribuido
+	* Capaz de manejar grandes proyectos
+	* Tiene integridad.
+
+4. Estados de Git: 
+	4.1 Working directory
+	4.2 Staging Area
+	4.3 Git directory (Repositorio)
+
+5. Github:
+	Plataforma que funciona como hosting para almacenar nuestros repositorios.
+
+6. Instalacion y Configuración de Git.
+	6.1 Entra a la pagina de git y dale instalar.
+	6.2 Configuracion:
+		*Email: git config --global user.email tu@gmail.com
+		*Nombre: git config --global user.name "Nombre"
+		*Colores: git config --global color.ui true
+		
+7. Comandos comunes
+	*cd = Movernos entre carpetas
+	*mkdir = Make directory
+	*ls = listar
+	*clear = también se puede usar control + L
+	*touch = crea un archivo o modifica su fecha de modificación.
+	*rm = remove (borrar archivos)
+	*rm -rf = remove (para borrar carpetas)
+
+	Nunca usar rm -rf / o se despiden de su pc 😞
+	
+	VIM: vim <nombre del archivo> , editas y luego "escape" para poder usar los
+	siguientes comandos:
+	
+		i = para poder editar
+		:wq = para guardar y salir
+		:q! = para salir sin guardar
+	
+
