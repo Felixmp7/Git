@@ -13,4 +13,13 @@
 
 	git log: nos muestra la historia de todos los commits que hemos realizados.
 
+4.Tags
+
+	git tag: nos permite agregar etiquetas a nuestros cambios.
+		-a para la anotación
+		-m para el mensaje
+		-l nos muestra la lista de etiquetas
+		-f para renombrar
+		-d para borrar
+
 
