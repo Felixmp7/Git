@@ -38,5 +38,30 @@
 	git diff <sha1> <sha2> 	
 	git diff también funciona con los tags.
 	
+	
+7. Reset
+
+	7.1 git reset --soft <sha del commit> 
+	
+	Permite resetear o devolverme en el tiempo hasta cierto commit y no borra las
+	modificaciones posteriores al commit que estoy volviendo, solo las deja en staging.
+	
+	7.2 git reset --mixed <sha del commit>
+	
+	Permite resetear o devolverme en el tiempo hasta cierto commit y no borra las
+	modificaciones posteriores al commit que estoy volviendo, tampoco las deja en
+	staging, las deja en tu local (working directory).
+	
+	7.3 git reset --hard <sha del commit>
+	
+	Borra absolutamente todo hasta el commit del sha.
+	Sin embargo... si tengo registrado un sha que ya no existe despues de haber hecho
+	el reset --hard y vuelvo a escribir git reset --hard <sha de un commit que ya no
+	existe> puedo volver a recuperar todo.
+	
+	Consejo: Antes de hacer un git reset --hard , anota o copia el ultimo sha que tengas
+	porsia.
+	
+	
 
 
