@@ -21,5 +21,13 @@
 		-l nos muestra la lista de etiquetas
 		-f para renombrar
 		-d para borrar
+		
+5. Log
+	
+	git log --oneline :Lista todos los commits en una linea
+	git log --oneline --graph : Muestra un grafico
+	git log -<numero de commits que quieres ver>
+	*Utiliza git superlog, es mejor*
+	
 
 
