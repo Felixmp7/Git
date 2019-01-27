@@ -1,11 +1,14 @@
 1. Crear repositorio:
+
 	* git init <nombre del repositorio>
 	O, si ya tengo una carpeta con archivos, utilizo "git init" solamente y listo.
 
 2. Añadir cambios al staging:
+
 	git add
 
 3. Commit
+
 	git commit -m [“mensaje”]: Es bueno ser descriptivos con el mensaje para saber lo
 	que se hizo en ese commit y para informar al resto de personas.
 
@@ -27,7 +30,13 @@
 	git log --oneline :Lista todos los commits en una linea
 	git log --oneline --graph : Muestra un grafico
 	git log -<numero de commits que quieres ver>
+
 	*Utiliza git superlog, es mejor*
+
+6. Diff
+
+	git diff <sha1> <sha2> 	
+	git diff también funciona con los tags.
 	
 
 
