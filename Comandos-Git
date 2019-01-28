@@ -63,5 +63,26 @@
 	porsia.
 	
 	
+8. Branches
 
+	8.1 Crear Ramas
 
+	Master: Rama por default que inicia en cualquier repositorio.
+	git branch <nombre de la rama>: Crear Rama nueva
+	git branch -d <nombre de la rama>: Borrar Rama
+	git branch -D <nombre de la rama>: Borrar Rama con cambios.
+	git branch: Ver ramas
+	git branch -l: Ver ramas ocultas. 
+	-m [nombre] [nombre_nuevo]: para renombrar ramas.
+	
+	8.2 Movernos entre ramas
+	
+	git checkout <Nombre de la rama> : Moverme entre ramas
+	git checkout <sha del commit> : Moverme en el tiempo a un commit
+	git checkout -b <nombre de la nueva rama>: Crear una rama y situarte directo 
+	en la rama.
+	
+	8.3 Merge
+	
+		1. Posicionarme en la rama que quiero que obtenga los cambios
+		2. git merge <nombre de rama que quiero fusionar> 
