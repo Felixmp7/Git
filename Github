@@ -2,3 +2,5 @@
 	git remote add [origin] [SSH/HTTPS] Conecta un repositorio con nuestro equipo local.
 	git remote -v Lista las conexiones existentes.
 	git remote remove [origin] Elimina una conexión con algún repositorio.
+
+
