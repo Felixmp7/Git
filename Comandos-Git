@@ -86,3 +86,9 @@
 	
 		1. Posicionarme en la rama que quiero que obtenga los cambios
 		2. git merge <nombre de rama que quiero fusionar> 
+
+9. Cherry Pick : Sacar cambios especificos de una rama y mezclarlos en otra
+
+	1. Copiar el sha del commit.
+	2. Trasladarnos a la rama que deberia tener el commit.
+	3. git cherry-pick <sha copiado> y enter
