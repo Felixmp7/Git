@@ -1,6 +1,6 @@
-##Atajos en git:
+## Atajos en git:
 
-###Comandos mas comunes:
+### Comandos mas comunes:
 gcl='git clone'
 ga='git add'
 grm='git rm'
