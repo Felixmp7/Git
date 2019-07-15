@@ -86,6 +86,11 @@
 	
 		1. Posicionarme en la rama que quiero que obtenga los cambios
 		2. git merge <nombre de rama que quiero fusionar> 
+		
+	8.4 Borrar Ramas Remotas y Locales
+	
+		1. Borrar rama local: $ git branch -D nombre-rama
+		2. Borrar rama remota: $ git push origin :nombre-rama
 
 9. Cherry Pick : Sacar cambios especificos de una rama y mezclarlos en otra
 
