@@ -4,4 +4,4 @@
 
   - Para borrar un archivo de la caché de git, incorporar el archivo al gitignore y que se actualice en el repo.
   
-  "git rm --cached <Archivo o carpeta>"
+  "git rm --cached _Archivo o carpeta_ "
