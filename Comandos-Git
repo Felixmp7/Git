@@ -97,3 +97,7 @@
 	1. Copiar el sha del commit.
 	2. Trasladarnos a la rama que deberia tener el commit.
 	3. git cherry-pick <sha copiado> y enter
+
+10. Conoce tus configuraciones de git.
+
+	1. git config --list
